@@ -1,1 +1,1 @@
-# new-git-test
+This is my ever-expanding portfolio website. I am starting from the ground up, with the basics of html, css, and javascript, teaching myself as I go. It may not look like much but it is the child of my new-found love of coding, I hope to raise it well.
