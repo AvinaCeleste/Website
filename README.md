@@ -1,1 +1,4 @@
-This is my ever-expanding portfolio website. I am starting from the ground up, with the basics of html, css, and javascript, teaching myself as I go. It may not look like much but it is the child of my new-found love of coding, I hope to raise it well.
+This is my pro bono project for a local SPCA's website. I have no prior experience with HTML, CSS, or JavaScript and am using this project as a way to learn.
+
+Issues to be resolved:
+	- Black underline on icons when hovered over
