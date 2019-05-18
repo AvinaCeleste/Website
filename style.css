@@ -1,71 +1,30 @@
 body {
+    margin:0;
+    padding:0;
     font-family: arial, sans-serif;
-    margin:0;
-    padding:0;
 }
-.require {
-    color:red;
-    padding:5px;
+nav{
+    background-color:rgb(91, 0, 236);
+    height:50px;
 }
-.top {
-    width:100%;
-}
-.nav-bar {
-    top:60px;
-    left:0;
-    right:0;
-    position:fixed;
-    list-style-type:none;
-    margin:0;
-    padding:0;
-    overflow:hidden;
-    height:58px;
-    background-color:rgb(93, 0, 199);
-}
-.nav-a {
-    float:right;
+nav a{
     display:block;
-    color:white;
-    letter-spacing: 2px;
+    float:right;
+    padding:10px;
     text-decoration:none;
-    text-align:center;
-    padding: 15px;
+    color:white;
     margin:5px;
-    font-weight:bold;
+}
+nav a:hover{
+    background-color:rgb(37, 0, 170);
+}
+#logo {
+    float:left;
 }
 #donate {
-    background-color:rgb(255, 208, 0);
     color:black;
-    margin-right:10%;
-}
-.stat-nav {
-    left:0;
-    right:0;
-    z-index:100;
-    list-style-type:none;
-    margin:0;
-    padding:0;
-    overflow:hidden;
-    height:60px;
-    background-color:rgb(97, 190, 252);
-}
-
-a:hover {
-    background-color:rgb(60, 0, 128);
+    background-color:rgb(255, 217, 0);
 }
 #donate:hover {
-    background-color:rgb(255, 255, 255);
-}
-i {
-    color:white;
-    font-size:20px;
-    background-color:rgb(97, 190, 252);
-}
-i:hover {
-    color:rgb(176, 226, 255);
-    background-color:rgb(97, 190, 252);
-}
-i[class^="fab"]:before {
-	display: inline-block;
-	text-decoration: none;
+    background-color:white;
 }
