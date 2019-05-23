@@ -2,29 +2,45 @@ body {
     margin:0;
     padding:0;
     font-family: arial, sans-serif;
+    background-color:rgb(241, 241, 241);
 }
-nav{
+.top{
     background-color:rgb(91, 0, 236);
     height:50px;
 }
-nav a{
+.top a{
     display:block;
     float:right;
     padding:10px;
     text-decoration:none;
     color:white;
     margin:5px;
+    font-weight:bold;
 }
-nav a:hover{
+.top a:hover{
     background-color:rgb(37, 0, 170);
 }
-#logo {
+#logo{
     float:left;
 }
-#donate {
+#donate{
     color:black;
     background-color:rgb(255, 217, 0);
 }
-#donate:hover {
+#donate:hover{
     background-color:white;
+}
+
+.three-choice a{
+    display:inline-block;
+    position:center;
+    margin:5px;
+    width:200px;
+    padding:20px;
+    text-decoration:none;
+    text-align:center;
+    font-size:30px;
+    background-color:rgb(255, 217, 0);
+    /*background-color:rgb(255, 136, 0);*/
+    color:black;
 }
